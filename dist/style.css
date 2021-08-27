@@ -6,15 +6,24 @@ body {
 body {
   background: url(../images/primary-bg.jpg) repeat;
   background-size: cover;
+  font-family: 'Open Sans';
 }
 
 h1 {
+  font-family: 'Abril Fatface';
   font-size: 2rem;
+  color: #db6e6e;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #db6e6e;
 }
 
 .frame {
   background-color: rgba(255, 255, 255, .5);
-  border: 5px solid white;
+  border: 2px solid white;
 }
 
 .profile-pic {
@@ -29,6 +38,18 @@ h1 {
 
 .bg-white {
   background-color: white;
+}
+
+.vimeo {
+  padding:56.25% 0 0 0;
+  position:relative;
+  background-color:#db6e6e;
+}
+
+.width-half {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
 }
 
 @media only screen and (max-width: 767px) {
